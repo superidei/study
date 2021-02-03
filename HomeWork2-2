@@ -9,7 +9,7 @@ public class Geron {
 		double sideC = 0.5;
 		double pPoluperimetr = (sideA + sideB + sideC)/2.0;
 		double sTreugolnika = Math.sqrt(pPoluperimetr*(pPoluperimetr-sideA)*(pPoluperimetr-sideB)*(pPoluperimetr-sideC));
-		System.out.println(sTreugolnika);
+		System.out.println("Площадь треугольника: "+sTreugolnika);
 		
 	}
 
