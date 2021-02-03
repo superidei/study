@@ -1,0 +1,17 @@
+package com.gmail.superidei;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double cenaToplivo = 29;
+		double rashodToplivo = 9;
+		System.out.println("Введите растояние (км):");
+		int distance = sc.nextInt();
+		double totalSum;
+		totalSum=rashodToplivo/100.0 * cenaToplivo * distance *2;
+
+		System.out.println(totalSum+"UAH");
+	}
+
+}
