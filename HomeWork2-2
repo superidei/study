@@ -1,0 +1,16 @@
+package com.sss;
+
+public class Geron {
+	
+
+	public static void main(String[] args) {
+		double sideA = 0.3;
+		double sideB = 0.4;
+		double sideC = 0.5;
+		double pPoluperimetr = (sideA + sideB + sideC)/2.0;
+		double sTreugolnika = Math.sqrt(pPoluperimetr*(pPoluperimetr-sideA)*(pPoluperimetr-sideB)*(pPoluperimetr-sideC));
+		System.out.println(sTreugolnika);
+		
+	}
+
+}
